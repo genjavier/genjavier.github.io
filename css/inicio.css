@@ -259,7 +259,7 @@
        color: #2c9ab7
    }
 
-   a:hover {
+    a.cta-link:hover {
        text-decoration: underline
    }
 
@@ -328,28 +328,25 @@
       animation: scroll 15s cubic-bezier(0.645, 0.045, 0.355, 1) infinite
   }
 
-  #master-container-scroller .master-container-scroller_item[href]:hover {
-      text-decoration: underline
-  }
 
   #master-container-scroller .master-container-scroller_item:nth-child(1),
   #master-container-scroller .master-container-scroller_item:nth-child(1) a {
-      color: #E65F48
+      color: #2e99b0
   }
 
   #master-container-scroller .master-container-scroller_item:nth-child(2),
   #master-container-scroller .master-container-scroller_item:nth-child(2) a {
-      color: #E65F48
+      color: #fcd77f
   }
 
   #master-container-scroller .master-container-scroller_item:nth-child(3),
   #master-container-scroller .master-container-scroller_item:nth-child(3) a {
-      color: #76BCAD
+      color: #ff2e4c
   }
 
   #master-container-scroller .master-container-scroller_item:nth-child(4),
   #master-container-scroller .master-container-scroller_item:nth-child(4) a {
-      color: #84719f
+      color: #1e1548
   }
 
   #master-container-scroller .master-container-scroller_item:nth-child(5),
