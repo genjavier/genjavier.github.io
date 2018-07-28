@@ -10,9 +10,9 @@ html, body, .page {
   transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
   -webkit-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
   -moz-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
-  -o-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);  
+  -o-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
   color: #fff;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 * {
@@ -31,7 +31,21 @@ html, body, .page {
   left: 200%;
 }
 
-#p1 { background: darkslateblue; }
+#p1 { background-color: #F5C59C;
+-webkit-animation: master-container-bg 15s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+animation: master-container-bg 15s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+-webkit-align-items: center;
+-ms-flex-align: center;
+align-items: center;
+-webkit-justify-content: center;
+-ms-flex-pack: center;
+justify-content: center;
+height: 100vmin;
+min-height: 0;
+max-height: 100%; }
 #p2 { background: tomato; }
 #p3 { background: gold; }
 #p4 { background: deeppink; }
@@ -48,14 +62,14 @@ html, body, .page {
   transition-delay: .4s !important;
 }
 
-#t2:target #p1, 
+#t2:target #p1,
 #t3:target #p1,
 #t4:target #p1,
 #t5:target #p1{
   background: black;
 }
 
-#t2:target #p1 .icon, 
+#t2:target #p1 .icon,
 #t3:target #p1 .icon,
 #t4:target #p1 .icon,
 #t5:target #p1 .icon {
@@ -194,4 +208,3 @@ a {
   -o-transform: translateX(0) !important;
   transition-delay: 1s;
 }
-
